@@ -1,5 +1,7 @@
 import React from 'react'
 
+import Pokedex from './Pokedex'
+
 export default class App extends React.Component {
   constructor (props) {
     super(props)
@@ -13,6 +15,7 @@ export default class App extends React.Component {
     return (
       <div>
        im a pokedex
+       <Pokedex />
       </div>
     )
   }
